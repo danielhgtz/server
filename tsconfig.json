@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    /* other options */
+    "noEmit": false, // or "emitDeclarationOnly": true
+    // "allowImportingTsExtensions": true,
+    "module": "nodenext",
+    "target": "es2022",
+    /* Modules */
+    "sourceMap": true,
+    "outDir": "dist",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
+}
